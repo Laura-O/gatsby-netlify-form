@@ -5,8 +5,10 @@ const IndexPage = () => (
   <div>
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <form name="contact-form" method="post" data-netlify="true">
+      <input type="text" placeholder="name" name="name" />
+      <button>Send</button>
+    </form>
   </div>
 )
 
